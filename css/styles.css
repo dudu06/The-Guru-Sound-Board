@@ -1,0 +1,69 @@
+/*********************************
+PAGE: GENERAL;
+**********************************/
+
+body {
+	background-color: white;
+}
+
+header {
+	padding: 5px 0 3px 0;
+	width: 100%;
+	background: #FED501;
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 700;
+	font-size: 3em;
+	font-family: 'Cabin Sketch', cursive;
+	color: #891A1C;
+}
+
+h2 {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 400;
+	font-size: 2em;
+	font-family: 'Cabin Sketch', cursive;
+	color: #660709;
+}
+
+
+
+/*********************************
+CELEBRITY GALLERY;
+**********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	/*Our float removes the images stacked and makes them side by side*/
+	float: left;
+	/*17 x 5 = 85. This percentage will create 5 faces on 2 rows.*/
+	width: 17%;
+	/*10 x 1 = 10*/
+	margin: 1%;
+	background-color: none;
+}
+
+img {
+	max-width: 100%;
+	cursor: pointer;
+}
+
+#wrapper {
+	/*We want the width to be no more than 940px across*/
+	max-width: 940px;
+	/*30 is top and the bottom. Auto is the left and right. 
+	Margin is the space outside our div*/
+	margin: 30px auto;
+	/*0 is top and bottom. 5 is left and right. 
+	Padding the space inside our div*/
+	padding: 0 5%;
+}

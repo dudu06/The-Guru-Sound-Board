@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+
+#gallery li {
+		width: 47%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+
+#gallery li {
+		width: 47%;
+	}
+}
